@@ -20,6 +20,9 @@ header {
     padding: 0 80px;
     height: 90px;
     background: var(--bg);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
 }
 
 header .navigation {
@@ -301,7 +304,9 @@ section {
     color: var(--primary);
     font-style: italic;
 }
-
+#techStack{
+    background: var(--bg);
+}
 .techStackContainer {
     display: flex;
     gap: 20px;
@@ -312,8 +317,9 @@ section {
 
 .techStackContainer .card {
     position: relative;
-    background: var(--bg);
+    background: #fff;
     overflow: hidden;
+    border-radius: 20px;
     filter: grayscale(1);
     padding: 25px;
     width: 260px;
