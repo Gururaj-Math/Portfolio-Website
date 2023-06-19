@@ -462,11 +462,13 @@ section {
         align-items: center;
         gap: 40px;
         height: 600px;
-        width: 280px;
+        width: 290px;
+        margin: 0 auto;
     }
 
     .projectbox .box1 .left img {
-        width: 300px;
+        width: 290px;
+        height: 220px;
         margin-top: 0;
         object-fit: cover;
     }
@@ -482,7 +484,8 @@ section {
 
     .projectbox .box1 .right p {
         letter-spacing: 1px;
-        width: 315px;
+        font-size: 15px;
+        width: 290px;
     }
 
     .strip h1 {
