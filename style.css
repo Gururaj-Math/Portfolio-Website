@@ -625,6 +625,7 @@ section {
     .form {
         display: flex;
         flex-direction: column;
+        margin: 40px 40px 0px 40px;
     }
     .form .form-details button {
         margin-left: 0;
@@ -644,6 +645,7 @@ section {
     .form {
         display: flex;
         flex-direction: column;
+        margin: 40px 40px 0px 40px;
     }
     .form .form-details button {
         margin-left: 0;
