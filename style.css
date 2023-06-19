@@ -135,12 +135,14 @@ header .logo {
     background: var(--bg);
     border: none;
     border-radius: 20px;
-    color: #445F61;
     text-align: left;
     margin-top: 20px;
     cursor: pointer;
 }
-
+.banner .info .btn button a{
+    text-decoration: none;
+    color: var(--primary);
+}
 .image img {
     height: 598px;
 }
