@@ -304,9 +304,6 @@ section {
     color: var(--primary);
     font-style: italic;
 }
-#techStack{
-    background: var(--bg);
-}
 .techStackContainer {
     display: flex;
     gap: 20px;
@@ -317,7 +314,7 @@ section {
 
 .techStackContainer .card {
     position: relative;
-    background: #fff;
+    background: #f5f8fc;
     overflow: hidden;
     border-radius: 20px;
     filter: grayscale(1);
