@@ -23,6 +23,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 5;
+    top: 0;
 }
 
 header .navigation {
@@ -425,6 +426,7 @@ section {
 
     .banner .info {
         width: 300px;
+        margin-top: 100px;
     }
 
     .banner .image img {
@@ -456,8 +458,7 @@ section {
     }
 
 }
-
-@media(max-width: 415px) {
+@media(min-width: 500px) and (max-width: 768px){
     .projectbox .box1 {
         display: flex;
         justify-content: center;
@@ -467,6 +468,10 @@ section {
         height: 600px;
         width: 290px;
         margin: 0 auto;
+    }
+    header .logo
+    {
+        font-size: 1.3em;
     }
 
     .projectbox .box1 .left img {
@@ -507,4 +512,62 @@ section {
     .banner .info .hi p {
         font-size: 30px;
     }
+}
+@media(max-width: 500px){
+    .projectbox .box1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        height: 600px;
+        width: 290px;
+        margin: 0 auto;
+    }
+    header .logo
+    {
+        font-size: 1.3em;
+    }
+
+    .projectbox .box1 .left img {
+        width: 290px;
+        height: 220px;
+        margin-top: 0;
+        object-fit: cover;
+    }
+
+    .project .projectbox .swiper {
+        height: 700px;
+    }
+
+    .projectbox .box1 .right .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .projectbox .box1 .right p {
+        letter-spacing: 1px;
+        font-size: 15px;
+        width: 290px;
+    }
+
+    .strip h1 {
+        font-size: 1.2em;
+    }
+
+    .contentbox .box {
+        width: 350px;
+    }
+
+    .banner .image img {
+        height: 300px;
+        margin-top: 40px;
+    }
+
+    .banner .info .hi p {
+        font-size: 30px;
+    }
+}
+@media(orientation: landscape) and (max-height: 500px){
+    
 }
