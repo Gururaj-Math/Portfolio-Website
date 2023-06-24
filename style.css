@@ -152,6 +152,10 @@ header .logo {
     text-decoration: none;
     color: var(--primary);
 }
+.banner .info .btn button i{
+    font-size: 15px;
+    padding: 0 5px;
+}
 .image img {
     height: 598px;
     transform: translate(150%);   
