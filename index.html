@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://kit.fontawesome.com/ebbc1aa60f.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js"
         integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 </head>
@@ -352,6 +353,11 @@
             });
         })
     })
+    ScrollReveal({ reset: true });
+        ScrollReveal().reveal('#blog', { easing:"ease-in", delay: 200});
+        ScrollReveal().reveal('#project', { easing: "ease-in", delay: 200});
+        ScrollReveal().reveal('#techStack', { easing: "ease-in", delay: 200 });
+        ScrollReveal().reveal('#contact', { easing: "ease-in", delay: 200 });
 </script>
 
 </html>
