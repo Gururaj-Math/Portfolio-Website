@@ -149,6 +149,7 @@ header .logo {
     cursor: pointer;
     width: 190px;
     text-align: center;
+    color: var(--primary);
 }
 .banner .info .btn button a{
     text-decoration: none;
