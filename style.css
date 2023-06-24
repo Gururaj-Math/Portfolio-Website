@@ -125,6 +125,14 @@ header .logo {
     flex-wrap: wrap;
     color: #445F61;
     margin-left: 100px;
+    transform: translate(-150%);   
+    animation: info 1s ease-in-out forwards;
+}
+
+@keyframes info{
+    100%{
+        transform: translate(0);
+    }
 }
 
 .banner .info .hi {
@@ -146,8 +154,9 @@ header .logo {
 }
 .image img {
     height: 598px;
+    transform: translate(150%);   
+    animation: info 1s ease-in-out forwards;
 }
-
 section {
     padding: 50px;
 }
